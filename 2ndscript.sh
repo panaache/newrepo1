@@ -15,4 +15,3 @@ echo "what is your child's age"
 read b 
 
 echo "you gave birth to your child when you were `expr $a - $b`"
-
