@@ -6,13 +6,12 @@ read x
 echo "how old are you"
 read y 
 
-echo "your age is `expr $x + $y` " 
+echo "your age is `expr $x + $y`"
 
-echo "what is number"
-read p
+echo "what is your new age"
+read a
 
-echo "times number"
-read q
+echo "what is your child's age"
+read b 
 
-echo " $p times $q is `expr $p \* $q` "
-
+echo "you gave birth to your child when you were `expr $a - $b`"
